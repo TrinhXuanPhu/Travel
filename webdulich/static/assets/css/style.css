@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.kn-dl a h3:hover,
+.km-dl a h3:hover,
+.content-tour a h3:hover,
+.th-dl a h3:hover,
+.restaurant a h3:hover,
+.widget a h3:hover{
+    color: red;
+}
+
+.read-more a:hover{
+    background-color: #fb7d0e;
+}
+
+.clear{
+    clear: both;
+    width: 100%;
+    height: 1px;
+    background-color: #333;
+    opacity: 0.3;
+}
+
+.content-tour a h3
+{
+    width: 150px;
+}
+
+.th-dl a h3{
+    width: 300px;
+}
+
+.kn-dl li h4{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+.info-food h4{
+    font-size: 18px;
+}
+
+.kn-dl li span{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.list-brand h4 a{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.lr-dl h4 a{
+    font-size: 14px;
+}
+
+.clear-second{
+    clear: both;
+    width: 132%;
+    height: 1px;
+    background-color: #333;
+    opacity: 0.3;
+}
+
+.clear-third{
+    clear: both;
+    width: 98%;
+    height: 1px;
+    background-color: #333;
+    opacity: 0.3;
+}
+
+.clear-fourd{
+    clear: both;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+.clear-contact{
+    clear: both;
+    width: 121%;
+    height: 1px;
+    background-color: #fff;
+}
+
+.more{
+    border: 1px solid #ededed;
+}
+
+.tit-res{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.nav-link{
+    font-weight: 500;
+}
+
+.list-post h4 a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+
+.list-post h4 a:hover{
+    color: red;
+}
+
+.list-post p{
+    font-size: 14px;
+}
+
+.brand-img{
+    width: 230px;
+    height: 153px;
+}

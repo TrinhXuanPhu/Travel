@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{%block title%} {{pD.name}} {%endblock%}
+{%block content%}
+    <section class="single">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-9">
+                    <div class="content-single">
+                        <h1>
+                            {{pD.name}}
+                        </h1>
+                        <div class="meta d-flex justify-content-between">
+                            <span>Ngày đăng: {{pD.publish_at}}</span>
+                            <span>Bởi: {{pD.author_name}}</span>
+                            <span>Lượt xem: {{pD.views_count}}</span>
+                        </div>
+                        <div class="row">
+                            {{pD.description}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{%endblock%}
